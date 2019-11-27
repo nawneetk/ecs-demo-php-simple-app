@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple Network Function</h1>
                 <h2>Congratulations</h2>
-                <p>Your Network Function is now running on a container in Amazon ECS Version 3.</p>
+                <p>Your Network Function is now running on a container in Amazon ECS Version 4.</p>
                 <p>The container is running Network Function <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
